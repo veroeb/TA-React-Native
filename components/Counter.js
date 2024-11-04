@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 
-const CounterApp = () => {
+const Counter = () => {
   const [counter, setCounter] = useState(0);
 
   const increaseCounter = () => {
@@ -54,4 +54,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default CounterApp;
+export default Counter;
