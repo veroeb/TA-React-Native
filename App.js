@@ -3,13 +3,15 @@ import { StyleSheet, View } from "react-native";
 import Counter from "./components/Counter";
 import InputText from "./components/InputText";
 import TaskList from "./components/TaskList";
+import Images from "./components/Images";
 
 export default function App() {
   return (
     <View style={styles.container}>
       {/* <Counter /> */}
       {/* <InputText /> */}
-      <TaskList />
+      {/* <TaskList /> */}
+      <Images />
       <StatusBar style="auto" />
     </View>
   );
