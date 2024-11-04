@@ -12,7 +12,7 @@ const InputText = () => {
     <View style={styles.container}>
       <TextInput
         style={styles.textInput}
-        placeholder="Enter text here:"
+        placeholder="Enter text here"
         value={inputText}
         onChangeText={handleChange}
       />
