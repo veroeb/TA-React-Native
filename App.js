@@ -7,6 +7,7 @@ import Images from "./components/Images";
 import ImageGallery from "./components/ImageGallery";
 import Swipe from "./components/Swipe";
 import Movies from "./components/Movies";
+import PhoneDimensions from "./components/PhoneDimensions";
 
 export default function App() {
   return (
@@ -17,7 +18,8 @@ export default function App() {
       {/* <Images /> */}
       {/* <ImageGallery /> */}
       {/* <Swipe /> */}
-      <Movies />
+      {/* <Movies /> */}
+      <PhoneDimensions />
       <StatusBar style="auto" />
     </View>
   );
