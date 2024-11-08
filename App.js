@@ -10,6 +10,7 @@ import Movies from "./components/Movies";
 import PhoneDimensions from "./components/PhoneDimensions";
 import OSPlatform from "./components/OSPlatform";
 import PhoneLocation from "./components/PhoneLocation";
+import PhoneImagePicker from "./components/PhoneImagePicker";
 
 export default function App() {
   return (
@@ -23,7 +24,8 @@ export default function App() {
       {/* <Movies /> */}
       {/* <PhoneDimensions /> */}
       {/* <OSPlatform /> */}
-      <PhoneLocation />
+      {/* <PhoneLocation /> */}
+      <PhoneImagePicker />
       <StatusBar style="auto" />
     </View>
   );
