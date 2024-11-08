@@ -11,6 +11,7 @@ import PhoneDimensions from "./components/PhoneDimensions";
 import OSPlatform from "./components/OSPlatform";
 import PhoneLocation from "./components/PhoneLocation";
 import PhoneImagePicker from "./components/PhoneImagePicker";
+import Camera from "./components/Camera";
 
 export default function App() {
   return (
@@ -25,7 +26,8 @@ export default function App() {
       {/* <PhoneDimensions /> */}
       {/* <OSPlatform /> */}
       {/* <PhoneLocation /> */}
-      <PhoneImagePicker />
+      {/* <PhoneImagePicker /> */}
+      <Camera />
       <StatusBar style="auto" />
     </View>
   );
