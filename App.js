@@ -4,6 +4,7 @@ import Counter from "./components/Counter";
 import InputText from "./components/InputText";
 import TaskList from "./components/TaskList";
 import Images from "./components/Images";
+import ImageGallery from "./components/ImageGallery";
 
 export default function App() {
   return (
@@ -11,7 +12,8 @@ export default function App() {
       {/* <Counter /> */}
       {/* <InputText /> */}
       {/* <TaskList /> */}
-      <Images />
+      {/* <Images /> */}
+      <ImageGallery />
       <StatusBar style="auto" />
     </View>
   );
