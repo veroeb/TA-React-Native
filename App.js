@@ -5,6 +5,7 @@ import InputText from "./components/InputText";
 import TaskList from "./components/TaskList";
 import Images from "./components/Images";
 import ImageGallery from "./components/ImageGallery";
+import Swipe from "./components/Swipe";
 
 export default function App() {
   return (
@@ -13,7 +14,8 @@ export default function App() {
       {/* <InputText /> */}
       {/* <TaskList /> */}
       {/* <Images /> */}
-      <ImageGallery />
+      {/* <ImageGallery /> */}
+      <Swipe />
       <StatusBar style="auto" />
     </View>
   );
