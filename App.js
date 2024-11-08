@@ -6,6 +6,7 @@ import TaskList from "./components/TaskList";
 import Images from "./components/Images";
 import ImageGallery from "./components/ImageGallery";
 import Swipe from "./components/Swipe";
+import Movies from "./components/Movies";
 
 export default function App() {
   return (
@@ -15,7 +16,8 @@ export default function App() {
       {/* <TaskList /> */}
       {/* <Images /> */}
       {/* <ImageGallery /> */}
-      <Swipe />
+      {/* <Swipe /> */}
+      <Movies />
       <StatusBar style="auto" />
     </View>
   );
