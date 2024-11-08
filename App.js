@@ -9,6 +9,7 @@ import Swipe from "./components/Swipe";
 import Movies from "./components/Movies";
 import PhoneDimensions from "./components/PhoneDimensions";
 import OSPlatform from "./components/OSPlatform";
+import PhoneLocation from "./components/PhoneLocation";
 
 export default function App() {
   return (
@@ -21,7 +22,8 @@ export default function App() {
       {/* <Swipe /> */}
       {/* <Movies /> */}
       {/* <PhoneDimensions /> */}
-      <OSPlatform />
+      {/* <OSPlatform /> */}
+      <PhoneLocation />
       <StatusBar style="auto" />
     </View>
   );
